@@ -3,36 +3,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-body{
-    font-family: Inter;
-}
+
 
 /* nav bar design start */
 nav{
-    background-color: rgb(182, 147, 147);
+    background-color: rgb(238, 229, 229);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 25px 70px;
+    flex-wrap: wrap;
 }
 
-nav ul{
+
+.menus ul{
     display: flex;
     justify-content: space-between;
-
+    gap: 30px;
     list-style: none;
+    
 }
 
-nav a{
+.menus a{
     text-decoration: none;
+    color: #575757FF;
 }
 
-nav .reregister-btn{
-    padding: 20px;
+.menus a:hover{
+    background-color:white;
+    padding: 10px;
 }
 
 .common-btn{
-    color : #1D4ED8
+    
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color : #1D4ED8 ;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
 }
+.common-btn:hover{
+    background: #143ca8;
+}
+
