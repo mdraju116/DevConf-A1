@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter;
+}
+
+/* nav bar design start */
+nav{
+    background-color: rgb(182, 147, 147);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav .reregister-btn{
+    padding: 20px;
+}
+
+.common-btn{
+    color : #1D4ED8
+}
