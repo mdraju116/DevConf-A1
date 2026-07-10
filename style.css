@@ -30,15 +30,16 @@ nav {
     padding: 7px;
 }
 .common-btn {
-    padding: 12px 50px;
-    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+
     border: none;
+    border-radius: 10px;
     background-color: #1D4ED8;
+    color: white;
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.5;
-    color: rgb(255, 255, 255);
-    
+    cursor: pointer;
 }
 .common-btn:hover {
     background: #143ca8;
@@ -129,3 +130,65 @@ nav {
     color: #575757FF;
     font-weight: 400;
 }
+
+/* Speaker section end */
+
+/* price-card-section start */
+
+.price-card-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-cards{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.common-price-card{
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.pro-card{
+    background-color: #0d1b2aFF;
+    color: white;
+}
+
+.price-cards ul li{
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    
+}
+.price-cards ul li::marker {
+    color: #60a5fa;   /* Bullet color */
+}
+
+
+.outline-btn {
+    padding: 12px 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color:  #2563ebFF;
+    
+}
+
+.outline-btn.black-color{
+    color: #0d1b2aFF;
+}
+
+.outline-btn:hover {
+    background: #e6eaf5;
+}
+
+
