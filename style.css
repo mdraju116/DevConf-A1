@@ -14,6 +14,7 @@ nav {
     padding: 25px 70px;
     flex-wrap: wrap;
 }
+
 .menus ul {
     display: flex;
     justify-content: space-between;
@@ -21,14 +22,17 @@ nav {
     list-style: none;
 
 }
+
 .menus a {
     text-decoration: none;
     color: #575757FF;
 }
+
 .menus a:hover {
     background-color: rgb(212, 210, 210);
     padding: 7px;
 }
+
 .common-btn {
     width: 200px;
     height: 50px;
@@ -41,6 +45,7 @@ nav {
     font-weight: 700;
     cursor: pointer;
 }
+
 .common-btn:hover {
     background: #143ca8;
 }
@@ -48,7 +53,7 @@ nav {
 /* navbar design end */
 
 /* hero section start */
-.hero-parent{
+.hero-parent {
     background-image: url("./assets/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -64,19 +69,21 @@ nav {
 
 }
 
-.hero-text{
+.hero-text {
     text-align: center;
     /* max-width: 960px; */
     margin: auto;
-    line-height: 1.2;    
+    line-height: 1.2;
 }
-.hero-text h1{
+
+.hero-text h1 {
     font-weight: 800;
     font-size: 80px;
-    
+
 }
-.hero-text p{
-    color:  #ffffffE5;
+
+.hero-text p {
+    color: #ffffffE5;
     max-width: 830px;
     margin: 20px auto;
     font-size: 22px;
@@ -85,119 +92,131 @@ nav {
 
 /* hero-section end */
 
-/* Speaker-Section Start */
+/* Speakers-Section Start */
 
-.speaker-section{
+.speaker-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    
+
 }
 
-.speaker-details{
+.speaker-details {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-top: 2rem;
 }
-.common-card{
+
+.common-card {
     line-height: 1.8;
     border-radius: 15px;
     border: 1px solid rgb(226, 224, 224);
-    overflow: hidden;   
+    overflow: hidden;
 }
-.common-card img{
+
+.common-card img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     display: block;
 }
 
-.card-content{
-    padding:20px;
+.card-content {
+    padding: 20px;
 }
 
-.common-card h5{
-    color:#2563ebFF ;
-    font-weight:600;  
+.common-card h5 {
+    color: #2563ebFF;
+    font-weight: 600;
 }
-.common-card h4{
+
+.common-card h4 {
     color: #0d1b2aFF;
     font-weight: 700;
 }
-.common-card p{
+
+.common-card p {
     color: #575757FF;
     font-weight: 400;
 }
 
-/* Speaker section end */
+/* Speakers section end */
 
 /* price-card-section start */
 
-.price-card-section{
+.price-card-section {
     margin: 80px 0;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    /* line-height: 1.5; */
+    align-items: center;
 
 }
-.secure-spot{
-    line-height: 1.8; 
+
+.secure-spot {
+    line-height: 1.8;
     text-align: center;
     margin-bottom: 50px;
 }
-.secure-spot h1{
+
+.secure-spot h1 {
     font-size: 48px;
     font-weight: 700;
     color: #0d1b2aFF;
 }
 
-.price-cards{
+.price-cards {
     display: flex;
     gap: 25px;
 }
-.common-price-card{
+
+.common-price-card {
     width: 320px;
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 20px;
-    
+
 }
-.common-price-card h5,p{
+
+.common-price-card h5,
+p {
     color: #888888FF;
 }
 
-.common-price-card hr{
+.common-price-card hr {
     margin: 20px 0;
-     opacity: 0.2;
+    opacity: 0.2;
 }
 
-.pro-card{
+.pro-card {
     background-color: #0d1b2aFF;
     color: white;
 }
-.pro-card h1{
+
+.pro-card h1 {
     color: white;
 }
-.pro-card h5{
-    color: #60a5fa; 
+
+.pro-card h5 {
+    color: #60a5fa;
 }
 
 
-.price-cards ul li{
+.price-cards ul li {
     list-style-position: inside;
     font-size: 14px;
     font-weight: 400;
     line-height: 2;
-    
-}
-.price-cards ul li::marker {
-    color: #60a5fa;   /* Bullet color */
+
 }
 
-.pro-card button{
+.price-cards ul li::marker {
+    color: #60a5fa;
+    /* Bullet color */
+}
+
+.pro-card button {
     width: 100%;
     margin: 15px 0;
 }
@@ -211,12 +230,12 @@ nav {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
-    color:  #2563ebFF;
+    color: #2563ebFF;
     margin: 15px 0;
-    
+
 }
 
-.outline-btn.card-3{
+.outline-btn.card-3 {
     color: rgb(32, 32, 32);
     border: 1px solid rgb(32, 32, 32);
 
@@ -226,4 +245,37 @@ nav {
     background: #fafafa;
 }
 
+/* speakers-section end */
 
+/* relevant-section start */
+
+/* relevant-section end */
+
+
+/* footer-section start */
+footer{
+    background-color:rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+   
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer ul li{
+    color: #143ca8;
+} */
+
+footer hr{
+    opacity: 0.2;
+    margin: 20px 0;
+}
+
+
+
+/* footer-section end */
