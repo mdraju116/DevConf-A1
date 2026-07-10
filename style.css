@@ -136,59 +136,94 @@ nav {
 /* price-card-section start */
 
 .price-card-section{
-    margin-top: 50px;
+    margin: 80px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    /* line-height: 1.5; */
+
+}
+.secure-spot{
+    line-height: 1.8; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.secure-spot h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0d1b2aFF;
 }
 
 .price-cards{
     display: flex;
     gap: 25px;
-    margin-top: 30px;
 }
 .common-price-card{
     width: 320px;
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 20px;
+    
+}
+.common-price-card h5,p{
+    color: #888888FF;
+}
+
+.common-price-card hr{
+    margin: 20px 0;
+     opacity: 0.2;
 }
 
 .pro-card{
     background-color: #0d1b2aFF;
     color: white;
 }
+.pro-card h1{
+    color: white;
+}
+.pro-card h5{
+    color: #60a5fa; 
+}
+
 
 .price-cards ul li{
     list-style-position: inside;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 2;
     
 }
 .price-cards ul li::marker {
     color: #60a5fa;   /* Bullet color */
 }
 
+.pro-card button{
+    width: 100%;
+    margin: 15px 0;
+}
 
 .outline-btn {
+    width: 100%;
     padding: 12px 50px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #2563ebFF;
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
     color:  #2563ebFF;
+    margin: 15px 0;
     
 }
 
-.outline-btn.black-color{
-    color: #0d1b2aFF;
+.outline-btn.card-3{
+    color: rgb(32, 32, 32);
+    border: 1px solid rgb(32, 32, 32);
+
 }
 
 .outline-btn:hover {
-    background: #e6eaf5;
+    background: #fafafa;
 }
 
 
