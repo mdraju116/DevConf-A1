@@ -15,6 +15,14 @@ nav {
     flex-wrap: wrap;
 }
 
+nav .logo{
+    cursor: pointer;
+}
+nav .logo:hover{
+    /* filter: brightness(0.8); */
+    background-color: #f3f9ff;
+}
+
 .menus ul {
     display: flex;
     justify-content: space-between;
@@ -51,6 +59,8 @@ nav {
 }
 
 /* navbar design end */
+
+
 
 /* hero section start */
 .hero-parent {
@@ -116,6 +126,9 @@ nav {
     border-radius: 15px;
     border: 1px solid rgb(226, 224, 224);
     overflow: hidden;
+}
+.common-card:hover{
+    box-shadow: 10px 15px 25px rgba(23, 23, 23, 0.08);
 }
 
 .common-card img {
@@ -184,6 +197,10 @@ nav {
 
 }
 
+.common-price-card:hover{
+    box-shadow: 10px 15px 25px rgba(23, 23, 23, 0.08);
+}
+
 .common-price-card h5,
 p {
     color: #888888FF;
@@ -237,7 +254,11 @@ p {
     line-height: 1.5;
     color: #2563ebFF;
     margin: 15px 0;
+    cursor: pointer;
 
+}
+.outline-btn:hover {
+    background: #efefef;
 }
 
 .outline-btn.card-3 {
@@ -246,9 +267,7 @@ p {
 
 }
 
-.outline-btn:hover {
-    background: #fafafa;
-}
+
 
 /* speakers-section end */
 
@@ -260,7 +279,7 @@ p {
 /* relevant-section start */
 .relevant-section{
     text-align: center;
-     background:#F8FAFC;
+    background: #f3f9ff;
     
 
     display: flex;
@@ -287,21 +306,27 @@ p {
     gap: 2rem;
 
     max-width:1100px;
-    margin:50px auto;
+    margin:50px auto; 
+    /* align-items: stetch; */
 }
 
 .common-feature-card{  
     background-color: #ffffff;
     border: 1px solid #E5E7EB;
     border-radius: 10px;
-    padding: 25px;
-    max-width:350px;    
 
     display:flex;
     flex-direction:column;
+
+    padding: 25px;
+    max-width:350px;    
+    
+
+    
 }
 .common-feature-card h3{
     margin:20px 0 12px;
+    
 }
 
 .common-feature-card p{
@@ -312,13 +337,16 @@ p {
     box-shadow: 0 10px 25px rgba(0,0,0,.08);
 }
 
+
 .icon{
     width:70px;
     height:70px;
-    margin:auto;
+    margin: 0 auto;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     border-radius:50%;
     background:#EFF6FF;
 }
@@ -327,7 +355,6 @@ p {
     font-size:32px;
     color:#2563EB;
 }
-
 
 
 /* relevant-section end */
@@ -348,6 +375,9 @@ footer {
 footer img {
     width: 180px;
     cursor: pointer;
+}
+footer img:hover {
+    filter: brightness(0.8);
 }
 .footer-content {
     display: flex;
@@ -387,7 +417,7 @@ footer .right-side i {
 }
 
 footer .right-side i:hover {
-    background-color: #e00b0b;
+    background-color: #0b60e0;
 }
 
 footer hr {
@@ -398,7 +428,7 @@ footer hr {
 
 footer p {
     color: #999;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
