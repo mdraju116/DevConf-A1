@@ -40,7 +40,9 @@
   - A speaker photo
   - A small category/track label (e.g. AI/ML, Cloud & DevOps, Frontend, Security)
   - Speaker name
-  - Speaker title/company
+  - Speaker title/company 
+
+
 
 ---
 
