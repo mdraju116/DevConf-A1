@@ -1,8 +1,4 @@
 
-my links :
-repository-link: https://github.com/Raju204116/assignment-01
-live-page-link : https://raju204116.github.io/assignment-01/
-
 
 Ai propmt for relevant-section :
 

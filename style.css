@@ -114,6 +114,12 @@ nav .logo:hover{
 
 }
 
+.speaker-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0d1b2aFF;
+}
+
 .speaker-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -269,7 +275,7 @@ p {
 
 
 
-/* speakers-section end */
+/* price-card-section end */
 
 
 
@@ -294,10 +300,15 @@ p {
 .relevant-section>p{
     max-width:700px;
     margin-top:15px;
+    font-size: 18px;
     
 }
-.relevant-section>h2{
+.relevant-section>h1{
     margin-top: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0d1b2aFF;
+
 }
 
 .feature-container{
@@ -368,7 +379,7 @@ footer {
     /* background-color:rgb(32, 32, 32); */
     background: #0F172A;
     color: white;
-    padding: 50px 0 30px;
+    padding: 50px 0 10px;
 
 
 }
