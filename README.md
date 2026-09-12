@@ -4,7 +4,7 @@ A modern and responsive developer conference landing page built as a frontend pr
 
 ## 🚀 Live Demo
 
-👉 [DevConf 2026 Live Demo](https://mdraju116.github.io/assignment-01/)
+👉 [DevConf 2026 Live Demo](https://mdraju116.github.io/DevConf-A1/)
 
 ## 📸 Project Screenshot
 
