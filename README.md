@@ -71,8 +71,8 @@ For a better development experience, you can use the **Live Server** extension i
 
 ## 🔗 Relevant Links
 
-* 🌐 Live Demo: https://mdraju116.github.io/assignment-01/
-* 💻 GitHub Repository: https://github.com/mdraju116/assignment-01
+* 🌐 Live Demo: https://mdraju116.github.io/DevConf-A1/
+* 💻 GitHub Repository: https://github.com/mdraju116/DevConf-A1
 
 ## 👨‍💻 Author
 
